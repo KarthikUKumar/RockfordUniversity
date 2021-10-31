@@ -1,0 +1,25 @@
+<div style="text-align: center;color:greenyellow;">Welcome {{retreive("name")}} to {{retreive("course")}}</div>
+    <br>
+<div class="container">
+    <div class="centered-div">
+    <br>
+    <p>Online Learning Portal</p>
+    <br>
+    <form #form1 = 'ngForm'>
+    Full Name <input type="text" name="user" id="user" placeholder="Enter your Full name" required ngModel>
+    <br><br>
+    Email Address <input type="email" name="email" id="email" ngModel placeholder="Enter the email address" required><br>
+    <br>Enter your Age <input type="number" name="age" id="age" placeholder="Enter age" required ngModel >
+    <br><br>
+    <p>Select course</p>
+    <input type="radio" id="1" ngModel name="course" value="deep learning">Deep Learning<br>
+    <input type="radio" id="2" ngModel name="course" value="web development">Web Develeopment<br>
+    <input type="radio" id="3" ngModel name="course" value="Data structure and algorithm">Data structure and algorithm<br>
+    <input type="radio" id="4" ngModel name="course" value="Machine Learning">Machine Learning<br>
+    <input type="radio" id="5" ngModel name="course" value="Verilog">Verilog Basics<br>
+    <input type="radio" id="6" ngModel name="course" value="PIC Microcontroller">PIC Mictocontroller
+    <br><br><br>
+    <input type="button" name="btn1" id="btn1" value="Register" class="btn" [disabled]='!form1.valid' (click)='log(form1)'>
+    </form>
+    </div>
+    </div>

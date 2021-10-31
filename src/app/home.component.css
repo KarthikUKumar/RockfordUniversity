@@ -1,0 +1,47 @@
+#frm
+{
+background-color: black;
+color: whitesmoke;
+text-align: center;
+padding: auto;
+border-radius: 10px;
+}
+#submit
+{
+background-color: silver;
+color: black;
+width : 80px;
+border-radius: 10px;
+}
+.data
+{
+margin:3px;
+text-align: center;
+}
+.imag{
+    padding-top: 5px;
+    padding: 5px;
+    float: left;
+    border: 1px solid;
+}
+.news{
+    padding: 8px;
+    background-color: rgb(107, 212, 238);
+    width:90%;
+    height:130px;
+    text-align: center;
+}
+.blue{
+    color: blue;
+}
+.align{
+    text-align: justify;
+}
+.base{
+    border-radius: 6px 0px 6px 6px;
+    background: #f5f7f3;
+    padding: 20px; 
+    border : 1px black solid;
+    width : 96.5%;
+    height: fit-content;
+}

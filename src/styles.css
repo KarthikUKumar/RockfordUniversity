@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+    background-color: rgb(51, 80, 240);
+}
+.span {
+    float: right;
+    color: white;
+    font-style: italic;
+}
+.simple{
+    background-color: rgb(188, 224, 245);
+}
+.a {
+    background-color: rgba(243, 205, 156, 0.979);; /* Green */
+    border: none;
+    color: rgb(20, 20, 20);
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 14px;
+    width : 60px;
+    border-radius: 6px;
+  }
+.base{
+    border-radius: 6px 0px 6px 6px;
+    background: #f5f7f3;
+    padding: 20px; 
+    border : 1px black solid;
+    width : 96.5%;
+}
+.child1 {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+  

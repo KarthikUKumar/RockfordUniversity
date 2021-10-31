@@ -1,0 +1,40 @@
+.container {
+    border-radius: 6px 0px 6px 6px;
+    background: #f5f7f3;
+    padding: 20px; 
+    border : 1px black solid;
+    width : 96.5%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .centered-div {
+    width: 70%;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    background: black;
+    color : white;
+    text-align : center;
+ }
+ p{
+     font-size : 25px;
+ }
+ .btn{
+background-color:rgb(188, 224, 245); /* Green */
+border: none;
+padding: 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 13px;
+cursor: pointer;
+height: 25px;
+width : 80px;
+border-radius: 10px;
+}
